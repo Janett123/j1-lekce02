@@ -38,6 +38,7 @@ public class HlavniProgram {
         zofka.penDown();
         zofka.move(30);
 
+
         //TODO tady bude kód
     }
 
