@@ -21,16 +21,16 @@ public class Osmiuhelnik {
         }
          */
 
-        for (int i = 0; i < 18; i++) {
-            zofka.turnLeft(20);         //kruh
-            zofka.move(15);
+        for (int i = 0; i < 12; i++) {
+            zofka.turnLeft(30);         //kruh
+            zofka.move(20);
             zofka.turnRight(90);        //paprsek
-            zofka.move(30);
+            zofka.move(20);
             zofka.turnLeft(180);
             zofka.penUp();
-            zofka.move(30);
+            zofka.move(20);
             zofka.penDown();
-            zofka.turnRight(90);        //zpět do původní plohy
+            zofka.turnRight(90);        //zpět do původní polohy
         }
 
 

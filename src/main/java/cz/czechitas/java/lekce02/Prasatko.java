@@ -7,7 +7,10 @@ public class Prasatko {
     public void start() {
         zofka = new Turtle();
 
-// kresleni ctverce
+        nakresliPrasatko();
+    }
+
+    private void nakresliPrasatko() {
         nakresliCtverec();
 
         nakresliStrechu();
@@ -16,12 +19,13 @@ public class Prasatko {
 
         naklesliNohu();
 
+        // pohyb dozadu k dokreslení nohy
         zofka.turnLeft(180);
         zofka.penUp();
         zofka.move(30);
         zofka.turnRight(135);
-        zofka.move(100); // je na konci čtverce
-        zofka.turnRight(135); // kreslení nohy zadní levá část
+        zofka.move(100);            // je na konci čtverce
+        zofka.turnRight(135);     // kreslení nohy zadní levá část
         zofka.penDown();
 
         naklesliNohu();
