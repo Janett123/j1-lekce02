@@ -7,7 +7,7 @@ public class Prasatko {
     public void start() {
         zofka = new Turtle();
 
-
+// kresleni ctverce
          for (int i = 0; i < 4; i++) {
 
             zofka.turnRight(90);
@@ -18,7 +18,7 @@ public class Prasatko {
         zofka.move(60);
         zofka.turnLeft(60);
         zofka.move(60);
-        zofka.turnRight(60);
+        zofka.turnRight(60); // kreslení nohy
         zofka.move(30);
         zofka.turnLeft(180);
         zofka.penUp();
