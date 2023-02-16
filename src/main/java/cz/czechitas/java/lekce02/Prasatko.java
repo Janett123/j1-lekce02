@@ -12,14 +12,10 @@ public class Prasatko {
 
         nakresliStrechu();
 
-        zofka.turnRight(105); // kreslení nohy přední levá část
-        zofka.move(30);
-        zofka.turnLeft(180);
-        zofka.penUp();
-        zofka.move(30);
-        zofka.turnRight(90); //kreslení nohy přední pravá část
-        zofka.penDown();
-        zofka.move(30);
+        zofka.turnRight(105);
+
+        naklesliNohu();
+
         zofka.turnLeft(180);
         zofka.penUp();
         zofka.move(30);
@@ -27,11 +23,16 @@ public class Prasatko {
         zofka.move(100); // je na konci čtverce
         zofka.turnRight(135); // kreslení nohy zadní levá část
         zofka.penDown();
-        zofka.move(30);
+
+        naklesliNohu();
+    }
+
+    private void naklesliNohu() {
+        zofka.move(30); // kreslení nohy levá část
         zofka.turnLeft(180);
         zofka.penUp();
         zofka.move(30);
-        zofka.turnRight(90); //kreslení nohy zadní pravá část
+        zofka.turnRight(90); //kreslení nohy pravá část
         zofka.penDown();
         zofka.move(30);
     }
