@@ -33,9 +33,6 @@ public class Osmiuhelnik {
             zofka.turnRight(90);        //zpět do původní polohy
         }
 
-
-
-
 }
 
     public static void main(String[] args) {
