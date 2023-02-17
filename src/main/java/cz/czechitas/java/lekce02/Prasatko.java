@@ -8,7 +8,14 @@ public class Prasatko {
         zofka = new Turtle();
 
         nakresliPrasatko();
+
+        zofka.turnLeft(135);
+        zofka.penUp();
+        zofka.move(200);
+        zofka.turnLeft(90);
+        zofka.move(400);
     }
+
 
     private void nakresliPrasatko() {
         nakresliCtverec();
@@ -30,6 +37,10 @@ public class Prasatko {
 
         naklesliNohu();
     }
+
+
+
+
 
     private void naklesliNohu() {
         zofka.move(30); // kreslení nohy levá část

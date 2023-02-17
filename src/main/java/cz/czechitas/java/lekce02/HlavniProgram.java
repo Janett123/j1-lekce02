@@ -28,6 +28,7 @@ public class HlavniProgram {
         zofka.move(30);
     }
       */
+        /*
 
         zofka.turnLeft(90);
         zofka.penUp();
@@ -35,7 +36,44 @@ public class HlavniProgram {
         zofka.penDown();
         zofka.turnRight(90);
 
+         */
+
         nakresliDomecek();
+
+        zofka.turnRight(120);
+        zofka.penUp();
+        zofka.move(500);
+        zofka.turnRight(90);
+        zofka.penDown();
+
+
+        /*
+        zofka.turnRight(30);
+        zofka.penUp();
+        zofka.move(250);
+        zofka.turnRight(90);
+        zofka.move(100);
+        zofka.turnRight(90);
+        zofka.penDown();
+
+        nakresliDomecek();
+         */
+
+        /*
+        for (int i = 0; i <4 ; i++) {
+            zofka.turnLeft(60);
+            zofka.penUp();
+            zofka.move(100);
+            zofka.turnLeft(90);
+            zofka.penDown();
+
+            nakresliDomecek();
+        }
+
+         */
+
+
+
     }
 
     private void nakresliDomecek() {
